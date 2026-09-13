@@ -1,0 +1,6 @@
+@weight_scanner_service_HostAddress = http://localhost:5048
+
+GET {{weight_scanner_service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
